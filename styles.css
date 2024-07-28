@@ -1,0 +1,207 @@
+body {
+    font-family: "Fira Sans", sans-serif;
+    font-weight: 500 bold;
+    margin: 0;
+    padding: 0;
+    background-color: #181920;
+    display: flex;
+}
+
+header {
+    background: #1d1d25;
+    color: #fff;
+    padding: 20px;
+    width: 250px;
+    height: 100vh;
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    transform: translateY(-30px);
+}
+
+header h1 {
+    margin-bottom: 30px;
+}
+
+header nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    text-align: center;
+}
+
+header nav ul li {
+    margin-bottom: 10px;
+}
+
+header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    display: block;
+    padding: 10px;
+    border-radius: 4px;
+    transition: box-shadow 0.3s ease-in-out;
+}
+
+header nav ul li a:hover {
+    box-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #fff, 0 0 20px #fff;
+    background-color: #fff;
+    color: black;
+}
+
+main {
+    margin-left: 270px;
+    width: calc(100% - 270px);
+    padding: 20px;
+}
+
+.container {
+    display: flex;
+    align-items: center; /* Vertically center align */
+    color: white;
+    margin: 30px;
+    margin-top: 20%;
+    font-size: 1.5rem;
+}
+
+.frame {
+    width: 250px; /* Adjust the size as needed */
+    height: 250px; /* Adjust the size as needed */
+    border-radius: 50%;
+    overflow: hidden;
+    border: 5px solid #fff; /* Optional: Add a border around the frame */
+    margin-right: 20px; /* Space between image and text */
+    position: relative;
+}
+
+.frame img {
+    position: absolute;
+    width: 200%; /* Adjust zoom level (e.g., 200% for double size) */
+    height: auto; /* Keep the aspect ratio */
+    top: -25%; /* Adjust position to focus on the desired part of the image */
+    left: -53%; /* Adjust position to focus on the desired part of the image */
+    object-fit: cover;
+}
+
+.about {
+    max-width: 600px; /* Adjust the max-width as needed */
+}
+
+section {
+    margin: 40px 0;
+    color: white;
+}
+
+h2 {
+    margin-top: 0;
+}
+
+.project {
+    border: 1px solid #ddd;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+footer {
+    background: #1d1d25;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    width: calc(100% - 270px);
+    bottom: 0;
+    left: 270px;
+}
+
+.body {
+    margin: 20px;
+}
+
+.containerA {
+    width: auto;
+    font-size: 1.5rem;
+    margin: 30px;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+    header {
+        position: relative;
+        height: auto;
+    }
+
+    header nav ul {
+        display: none;
+        flex-direction: column;
+        width: 100%;
+        text-align: center;
+    }
+
+    header nav ul li {
+        margin: 10px 0;
+    }
+
+    header nav ul li a {
+        padding: 10px;
+    }
+
+    header .menu-toggle {
+        display: block;
+        background-color: #1d1d25;
+        color: white;
+        padding: 10px;
+        text-align: center;
+        cursor: pointer;
+        border: none;
+        width: 100%;
+    }
+
+    header .menu-toggle:hover {
+        background-color: #fff;
+        color: black;
+    }
+
+    main {
+        margin-left: 0;
+        width: 100%;
+        padding: 20px;
+    }
+
+    .frame {
+        width: 100%;
+        height: auto;
+    }
+
+    footer {
+        width: 100%;
+        left: 0;
+        padding: 10px;
+        box-sizing: border-box;
+    }
+}
+
+@media (max-width: 480px) {
+    header {
+        padding: 10px;
+    }
+
+    header h1 {
+        font-size: 1.5rem;
+    }
+
+    header nav ul li a {
+        font-size: 1rem;
+    }
+
+    .container, .containerA {
+        font-size: 1rem;
+    }
+
+    .frame {
+        max-width: 150px; /* Adjust the size as needed */
+        height: 150px; /* Adjust the size as needed */
+    }
+}
