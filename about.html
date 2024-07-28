@@ -7,12 +7,13 @@
     <link rel="stylesheet" href="styles.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900&family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800&family=Noto+Sans:ital,wght@0,100..900;0,100..900&display=swap" rel="stylesheet">
 </head>
 <body>
     <header>
         <h1>Nasif Sajjad</h1>
         <nav>
+            <button class="menu-toggle" onclick="toggleMenu()">☰ Menu</button>
             <ul>
                 <li><a href="index.html">Home</a></li>
                 <li><a href="about.html">About</a></li>
@@ -31,5 +32,14 @@
             </div>
         </section>
     </main>
+    <footer>
+        &copy; 2024 Nasif Sajjad. All rights reserved.
+    </footer>
+    <script>
+        function toggleMenu() {
+            var nav = document.querySelector('header nav ul');
+            nav.classList.toggle('open');
+        }
+    </script>
 </body>
 </html>
