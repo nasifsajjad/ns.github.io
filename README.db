@@ -1,0 +1,97 @@
+# Nasif Sajjad's Portfolio Website
+
+Welcome to my portfolio website! This repository contains the source code and content for [nasifsajjad.github.io](https://nasifsajjad.github.io), showcasing my projects, skills, and professional background.
+
+## Table of Contents
+
+- [About](#about)
+- [Features](#features)
+- [Technologies Used](#technologies-used)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Project Structure](#project-structure)
+- [Contributing](#contributing)
+- [License](#license)
+- [Contact](#contact)
+
+## About
+
+This website serves as my personal portfolio, highlighting my experience in web development, completed projects, and areas of expertise. It aims to provide a comprehensive overview of my professional journey and skill set.
+
+## Features
+
+- **Responsive Design**: Accessible on various devices including desktops, tablets, and smartphones.
+- **Project Showcase**: Detailed descriptions and demonstrations of my completed projects.
+- **Blog**: Articles on web development, coding tips, and industry insights.
+- **Contact Form**: Easy way to get in touch with me directly through the website.
+- **Interactive Elements**: Enhanced user experience with interactive components.
+
+## Technologies Used
+
+- **Frontend**: HTML, CSS, JavaScript, Bootstrap
+- **Backend**: Node.js, Express (if applicable)
+- **Database**: MongoDB (if applicable)
+- **Others**: GitHub Pages for hosting
+
+## Installation
+
+To run this website locally, follow these steps:
+
+1. **Clone the repository**:
+    ```bash
+    git clone https://github.com/nasifsajjad/nasifsajjad.github.io.git
+    ```
+
+2. **Navigate to the project directory**:
+    ```bash
+    cd nasifsajjad.github.io
+    ```
+
+3. **Install dependencies** (if applicable):
+    ```bash
+    npm install
+    ```
+
+## Usage
+
+To start the development server and view the website locally:
+
+1. **Run the server** (if using Node.js/Express):
+    ```bash
+    npm start
+    ```
+
+2. **Open your browser** and navigate to:
+    ```
+    http://localhost:3000
+    ```
+
+## Project Structure
+
+```
+nasifsajjad.github.io/
+├── assets/         # Images, fonts, icons, etc.
+├── css/            # CSS files
+├── js/             # JavaScript files
+├── projects/       # Project details and assets
+├── blog/           # Blog posts and assets
+├── index.html      # Main landing page
+├── about.html      # About page
+├── contact.html    # Contact page
+└── README.md       # This file
+```
+
+## Contributing
+
+I welcome contributions to enhance the functionality and appearance of this website. If you have suggestions or improvements, feel free to submit a pull request or open an issue.
+
+## License
+
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for more details.
+
+## Contact
+
+For any inquiries, feedback, or collaboration opportunities, please contact me via:
+
+- **Email**: nasif@example.com
+- **LinkedIn**: [Nasif Sajjad](https://www.linkedin.com/in/nasif-sajjad/)
